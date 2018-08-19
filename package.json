@@ -1,0 +1,23 @@
+{
+  "name": "housekeeping",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.22.1",
+    "vue": "^2.5.17",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --entry ./js/index.js --output-file output.js -w"
+  },
+  "keywords": [],
+  "author": "monsegur",
+  "license": "ISC",
+  "description": ""
+}
